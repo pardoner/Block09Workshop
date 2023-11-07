@@ -1,0 +1,46 @@
+.grid-container {
+    display: grid;
+    background-color: darkviolet;
+    color: greenyellow;
+    column-gap: 50px;
+    row-gap: 25%;
+}
+body {background-color: pink;
+    min-width: 480;
+    min-height: 320;
+    max-height: 1050;
+    max-width: 1680;;
+}
+.grid-container2 {background-color: lavenderblush;
+display: flex;
+color: darkseagreen;
+row-gap: 200 vh;
+column-gap: 50 rem;
+border: 1px solid gray;
+z-index: 1;
+}
+.square {
+    width: 100px;
+    height: 200px;
+    background: purple;
+  }
+  .circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 50%;
+  }
+  fieldset {
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+.square2 {
+        width: 200px;
+        height: 200px;
+        background: lightgoldenrodyellow;
+        margin: 75% ;
+      }
